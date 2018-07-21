@@ -9,11 +9,28 @@
 /* Begin PBXBuildFile section */
 		486F812D2100539000DF80DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F812C2100539000DF80DD /* AppDelegate.swift */; };
 		486F812F2100539000DF80DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F812E2100539000DF80DD /* ViewController.swift */; };
-		486F81322100539000DF80DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486F81302100539000DF80DD /* Main.storyboard */; };
 		486F81342100539200DF80DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486F81332100539200DF80DD /* Assets.xcassets */; };
 		486F81372100539200DF80DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486F81352100539200DF80DD /* LaunchScreen.storyboard */; };
 		486F81422100539300DF80DD /* Aliexpress_DropshipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F81412100539300DF80DD /* Aliexpress_DropshipperTests.swift */; };
 		486F814D2100539300DF80DD /* Aliexpress_DropshipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F814C2100539300DF80DD /* Aliexpress_DropshipperUITests.swift */; };
+		486F815B210055DB00DF80DD /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F815A210055DB00DF80DD /* TabBarVC.swift */; };
+		486F8161210056AA00DF80DD /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F815C210056A900DF80DD /* UIKitExtensions.swift */; };
+		486F8162210056AA00DF80DD /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F815D210056A900DF80DD /* CustomFonts.swift */; };
+		486F8163210056AA00DF80DD /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F815E210056A900DF80DD /* FoundationExtensions.swift */; };
+		486F8164210056AA00DF80DD /* CGPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F815F210056A900DF80DD /* CGPointExtensions.swift */; };
+		486F8165210056AA00DF80DD /* ValueScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F8160210056AA00DF80DD /* ValueScale.swift */; };
+		486F816E210056ED00DF80DD /* ALAnchorInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F8168210056EC00DF80DD /* ALAnchorInitializers.swift */; };
+		486F816F210056ED00DF80DD /* AnchorProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F8169210056EC00DF80DD /* AnchorProperty.swift */; };
+		486F8170210056ED00DF80DD /* AnchorDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F816A210056EC00DF80DD /* AnchorDimension.swift */; };
+		486F8171210056ED00DF80DD /* ALAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F816B210056EC00DF80DD /* ALAnchor.swift */; };
+		486F8172210056ED00DF80DD /* ALLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F816C210056EC00DF80DD /* ALLayout.swift */; };
+		486F8173210056ED00DF80DD /* AnchorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F816D210056ED00DF80DD /* AnchorType.swift */; };
+		486F81752100573D00DF80DD /* MainSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F81742100573D00DF80DD /* MainSearchVC.swift */; };
+		486F81772100586200DF80DD /* MainSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F81762100586200DF80DD /* MainSearchView.swift */; };
+		4892064821014C5500243613 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892064721014C5500243613 /* APICaller.swift */; };
+		C0172505C7B1648DB6EACA75 /* Pods_Aliexpress_DropshipperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E7E0A5DF4F6A1D84E845A9 /* Pods_Aliexpress_DropshipperUITests.framework */; };
+		CC6033F44CF3A014AE14C81F /* Pods_Aliexpress_Dropshipper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DBD4D13F52DF04069BB9B1 /* Pods_Aliexpress_Dropshipper.framework */; };
+		E0EEC9219D273B8090D14F6F /* Pods_Aliexpress_DropshipperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587ACBA113829E9F48F84073 /* Pods_Aliexpress_DropshipperTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07F9F403C998893F79F3CE56 /* Pods-Aliexpress DropshipperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliexpress DropshipperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aliexpress DropshipperTests/Pods-Aliexpress DropshipperTests.release.xcconfig"; sourceTree = "<group>"; };
+		093AE7D87C47468ABAF0944A /* Pods-Aliexpress Dropshipper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliexpress Dropshipper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aliexpress Dropshipper/Pods-Aliexpress Dropshipper.debug.xcconfig"; sourceTree = "<group>"; };
+		19B1D165161D5A88FCF5A14B /* Pods-Aliexpress DropshipperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliexpress DropshipperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aliexpress DropshipperUITests/Pods-Aliexpress DropshipperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		24E7E0A5DF4F6A1D84E845A9 /* Pods_Aliexpress_DropshipperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aliexpress_DropshipperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE271FCD5E593FE302F7CD3 /* Pods-Aliexpress DropshipperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliexpress DropshipperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aliexpress DropshipperTests/Pods-Aliexpress DropshipperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		44A8FECB30920DD15AB528B0 /* Pods-Aliexpress DropshipperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliexpress DropshipperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aliexpress DropshipperUITests/Pods-Aliexpress DropshipperUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		486F81292100539000DF80DD /* Aliexpress Dropshipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aliexpress Dropshipper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		486F812C2100539000DF80DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		486F812E2100539000DF80DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		486F81312100539000DF80DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		486F81332100539200DF80DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486F81362100539200DF80DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		486F81382100539200DF80DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +69,24 @@
 		486F81482100539300DF80DD /* Aliexpress DropshipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aliexpress DropshipperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		486F814C2100539300DF80DD /* Aliexpress_DropshipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliexpress_DropshipperUITests.swift; sourceTree = "<group>"; };
 		486F814E2100539300DF80DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486F815A210055DB00DF80DD /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		486F815C210056A900DF80DD /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		486F815D210056A900DF80DD /* CustomFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
+		486F815E210056A900DF80DD /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		486F815F210056A900DF80DD /* CGPointExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtensions.swift; sourceTree = "<group>"; };
+		486F8160210056AA00DF80DD /* ValueScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueScale.swift; sourceTree = "<group>"; };
+		486F8168210056EC00DF80DD /* ALAnchorInitializers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALAnchorInitializers.swift; sourceTree = "<group>"; };
+		486F8169210056EC00DF80DD /* AnchorProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorProperty.swift; sourceTree = "<group>"; };
+		486F816A210056EC00DF80DD /* AnchorDimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorDimension.swift; sourceTree = "<group>"; };
+		486F816B210056EC00DF80DD /* ALAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALAnchor.swift; sourceTree = "<group>"; };
+		486F816C210056EC00DF80DD /* ALLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALLayout.swift; sourceTree = "<group>"; };
+		486F816D210056ED00DF80DD /* AnchorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorType.swift; sourceTree = "<group>"; };
+		486F81742100573D00DF80DD /* MainSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSearchVC.swift; sourceTree = "<group>"; };
+		486F81762100586200DF80DD /* MainSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSearchView.swift; sourceTree = "<group>"; };
+		4892064721014C5500243613 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		587ACBA113829E9F48F84073 /* Pods_Aliexpress_DropshipperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aliexpress_DropshipperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C6AADD64CE913A412EB5DA /* Pods-Aliexpress Dropshipper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliexpress Dropshipper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aliexpress Dropshipper/Pods-Aliexpress Dropshipper.release.xcconfig"; sourceTree = "<group>"; };
+		E4DBD4D13F52DF04069BB9B1 /* Pods_Aliexpress_Dropshipper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aliexpress_Dropshipper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6033F44CF3A014AE14C81F /* Pods_Aliexpress_Dropshipper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0EEC9219D273B8090D14F6F /* Pods_Aliexpress_DropshipperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0172505C7B1648DB6EACA75 /* Pods_Aliexpress_DropshipperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +124,8 @@
 				486F81402100539300DF80DD /* Aliexpress DropshipperTests */,
 				486F814B2100539300DF80DD /* Aliexpress DropshipperUITests */,
 				486F812A2100539000DF80DD /* Products */,
+				A2C9199D6FD5356F5FCE6533 /* Pods */,
+				4D167D9879D4B9C03F70512F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +142,13 @@
 		486F812B2100539000DF80DD /* Aliexpress Dropshipper */ = {
 			isa = PBXGroup;
 			children = (
+				486F8166210056B400DF80DD /* Utilities */,
 				486F812C2100539000DF80DD /* AppDelegate.swift */,
+				486F81742100573D00DF80DD /* MainSearchVC.swift */,
+				4892064721014C5500243613 /* APICaller.swift */,
+				486F81762100586200DF80DD /* MainSearchView.swift */,
+				486F815A210055DB00DF80DD /* TabBarVC.swift */,
 				486F812E2100539000DF80DD /* ViewController.swift */,
-				486F81302100539000DF80DD /* Main.storyboard */,
 				486F81332100539200DF80DD /* Assets.xcassets */,
 				486F81352100539200DF80DD /* LaunchScreen.storyboard */,
 				486F81382100539200DF80DD /* Info.plist */,
@@ -125,6 +174,55 @@
 			path = "Aliexpress DropshipperUITests";
 			sourceTree = "<group>";
 		};
+		486F8166210056B400DF80DD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				486F8167210056C300DF80DD /* ALAnchor */,
+				486F815F210056A900DF80DD /* CGPointExtensions.swift */,
+				486F815D210056A900DF80DD /* CustomFonts.swift */,
+				486F815E210056A900DF80DD /* FoundationExtensions.swift */,
+				486F815C210056A900DF80DD /* UIKitExtensions.swift */,
+				486F8160210056AA00DF80DD /* ValueScale.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		486F8167210056C300DF80DD /* ALAnchor */ = {
+			isa = PBXGroup;
+			children = (
+				486F816B210056EC00DF80DD /* ALAnchor.swift */,
+				486F8168210056EC00DF80DD /* ALAnchorInitializers.swift */,
+				486F816C210056EC00DF80DD /* ALLayout.swift */,
+				486F816A210056EC00DF80DD /* AnchorDimension.swift */,
+				486F8169210056EC00DF80DD /* AnchorProperty.swift */,
+				486F816D210056ED00DF80DD /* AnchorType.swift */,
+			);
+			path = ALAnchor;
+			sourceTree = "<group>";
+		};
+		4D167D9879D4B9C03F70512F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4DBD4D13F52DF04069BB9B1 /* Pods_Aliexpress_Dropshipper.framework */,
+				587ACBA113829E9F48F84073 /* Pods_Aliexpress_DropshipperTests.framework */,
+				24E7E0A5DF4F6A1D84E845A9 /* Pods_Aliexpress_DropshipperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2C9199D6FD5356F5FCE6533 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				093AE7D87C47468ABAF0944A /* Pods-Aliexpress Dropshipper.debug.xcconfig */,
+				89C6AADD64CE913A412EB5DA /* Pods-Aliexpress Dropshipper.release.xcconfig */,
+				2BE271FCD5E593FE302F7CD3 /* Pods-Aliexpress DropshipperTests.debug.xcconfig */,
+				07F9F403C998893F79F3CE56 /* Pods-Aliexpress DropshipperTests.release.xcconfig */,
+				44A8FECB30920DD15AB528B0 /* Pods-Aliexpress DropshipperUITests.debug.xcconfig */,
+				19B1D165161D5A88FCF5A14B /* Pods-Aliexpress DropshipperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 486F81512100539300DF80DD /* Build configuration list for PBXNativeTarget "Aliexpress Dropshipper" */;
 			buildPhases = (
+				B5D576A19535B50CB783F3E0 /* [CP] Check Pods Manifest.lock */,
 				486F81252100539000DF80DD /* Sources */,
 				486F81262100539000DF80DD /* Frameworks */,
 				486F81272100539000DF80DD /* Resources */,
+				F0D2960B1315559AC2FE05BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 486F81542100539300DF80DD /* Build configuration list for PBXNativeTarget "Aliexpress DropshipperTests" */;
 			buildPhases = (
+				45B67A5677454B9187B2EF80 /* [CP] Check Pods Manifest.lock */,
 				486F81392100539300DF80DD /* Sources */,
 				486F813A2100539300DF80DD /* Frameworks */,
 				486F813B2100539300DF80DD /* Resources */,
@@ -167,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 486F81572100539300DF80DD /* Build configuration list for PBXNativeTarget "Aliexpress DropshipperUITests" */;
 			buildPhases = (
+				CD643DA7268028543D887EEF /* [CP] Check Pods Manifest.lock */,
 				486F81442100539300DF80DD /* Sources */,
 				486F81452100539300DF80DD /* Frameworks */,
 				486F81462100539300DF80DD /* Resources */,
@@ -231,7 +333,6 @@
 			files = (
 				486F81372100539200DF80DD /* LaunchScreen.storyboard in Resources */,
 				486F81342100539200DF80DD /* Assets.xcassets in Resources */,
-				486F81322100539000DF80DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +352,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45B67A5677454B9187B2EF80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aliexpress DropshipperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D576A19535B50CB783F3E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aliexpress Dropshipper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD643DA7268028543D887EEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aliexpress DropshipperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D2960B1315559AC2FE05BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Aliexpress Dropshipper/Pods-Aliexpress Dropshipper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aliexpress Dropshipper/Pods-Aliexpress Dropshipper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		486F81252100539000DF80DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				486F8165210056AA00DF80DD /* ValueScale.swift in Sources */,
+				486F8172210056ED00DF80DD /* ALLayout.swift in Sources */,
 				486F812F2100539000DF80DD /* ViewController.swift in Sources */,
+				486F815B210055DB00DF80DD /* TabBarVC.swift in Sources */,
+				486F8163210056AA00DF80DD /* FoundationExtensions.swift in Sources */,
+				486F81772100586200DF80DD /* MainSearchView.swift in Sources */,
+				486F816E210056ED00DF80DD /* ALAnchorInitializers.swift in Sources */,
+				486F8171210056ED00DF80DD /* ALAnchor.swift in Sources */,
+				4892064821014C5500243613 /* APICaller.swift in Sources */,
+				486F816F210056ED00DF80DD /* AnchorProperty.swift in Sources */,
+				486F8164210056AA00DF80DD /* CGPointExtensions.swift in Sources */,
+				486F81752100573D00DF80DD /* MainSearchVC.swift in Sources */,
+				486F8170210056ED00DF80DD /* AnchorDimension.swift in Sources */,
+				486F8162210056AA00DF80DD /* CustomFonts.swift in Sources */,
+				486F8161210056AA00DF80DD /* UIKitExtensions.swift in Sources */,
+				486F8173210056ED00DF80DD /* AnchorType.swift in Sources */,
 				486F812D2100539000DF80DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +484,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		486F81302100539000DF80DD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				486F81312100539000DF80DD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		486F81352100539200DF80DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,6 +611,7 @@
 		};
 		486F81522100539300DF80DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 093AE7D87C47468ABAF0944A /* Pods-Aliexpress Dropshipper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +630,7 @@
 		};
 		486F81532100539300DF80DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6AADD64CE913A412EB5DA /* Pods-Aliexpress Dropshipper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +649,7 @@
 		};
 		486F81552100539300DF80DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE271FCD5E593FE302F7CD3 /* Pods-Aliexpress DropshipperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +671,7 @@
 		};
 		486F81562100539300DF80DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F9F403C998893F79F3CE56 /* Pods-Aliexpress DropshipperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +693,7 @@
 		};
 		486F81582100539300DF80DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A8FECB30920DD15AB528B0 /* Pods-Aliexpress DropshipperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +714,7 @@
 		};
 		486F81592100539300DF80DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B1D165161D5A88FCF5A14B /* Pods-Aliexpress DropshipperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

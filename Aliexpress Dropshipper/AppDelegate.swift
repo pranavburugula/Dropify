@@ -6,6 +6,8 @@
 //  Copyright © 2018 Kevin Bai. All rights reserved.
 //
 
+// criteria: $1-$6, free shipping, show ones with most sales
+
 import UIKit
 
 @UIApplicationMain
@@ -16,6 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        //instantiate MainViewController
+        let rootVC = TabBarVC()
+        //create navigationcontroller
+        
+        window?.rootViewController = rootVC
+        //make window visible
+        window!.makeKeyAndVisible()
         return true
     }
 

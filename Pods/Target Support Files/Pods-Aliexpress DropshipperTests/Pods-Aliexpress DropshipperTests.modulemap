@@ -1,0 +1,6 @@
+framework module Pods_Aliexpress_DropshipperTests {
+  umbrella header "Pods-Aliexpress DropshipperTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

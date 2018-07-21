@@ -1,0 +1,6 @@
+framework module Pods_Aliexpress_Dropshipper {
+  umbrella header "Pods-Aliexpress Dropshipper-umbrella.h"
+
+  export *
+  module * { export * }
+}
